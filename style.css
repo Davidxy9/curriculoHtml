@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 1rem;
+    width: 80%;
+    background-color: cadetblue;
+}
+
+.perfilEfoto {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
